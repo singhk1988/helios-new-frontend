@@ -15,7 +15,7 @@ const KnowMoreComp = ({ heading, articleData, viewMore, route }: KnowMoreProps) 
     return (
         <div className={styles.kumCard}>
             <p className={styles.kumCardTitle}>{heading}</p>
-            <div className='md:h-[465px] w-[800px] m-auto scrollable-content'>
+            <div className='md:h-[465px] md:w-[800px] m-auto scrollable-content'>
             {
                 articleData && articleData?.payload?.sort((a:any, b:any) => {
                     let c: any = new Date(a.date);
