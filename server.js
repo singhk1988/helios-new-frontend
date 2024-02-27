@@ -5,7 +5,6 @@ const next = require('next');
 require('dotenv').config()
 
 // const dev = process.env.NODE_ENV !== 'production'
-console.log('is dev', dev);
 const dev = false //TODO: Remove in future and uncomment the above line
 const hostname = 'localhost'
 const port =process.env.PORT || 3000
