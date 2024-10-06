@@ -245,7 +245,7 @@ const Homepage = ({ data }: HomepageProps) => {
       <section className="bg-[#25272A]">
         <div className={styles.mapBackground}>
           <p className="text-[32px] md:text-[40px] text-center font-bold font-sans text-white py-10">
-            Our <span className={styles.mapLastPartTitle}>Projects</span>
+            Our <span className={styles.mapLastPartTitle}>Project</span>
           </p>
           <div className={styles.mapContainer}>
             <Map setContent={setContent} />
